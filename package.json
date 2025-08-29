@@ -2,6 +2,9 @@
   "name": "baseapp",
   "version": "1.0.0",
   "main": "index.ts",
+  "expo": {
+    "template": true
+  },
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
